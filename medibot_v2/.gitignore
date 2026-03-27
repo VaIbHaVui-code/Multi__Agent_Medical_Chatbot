@@ -1,0 +1,40 @@
+# Python and Environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# Secrets and API Keys (CRITICAL)
+.env
+secret_keys.py
+
+# Ignore large medical datasets and PDFs
+*.pdf
+medibot_v2/data/
+# Vector Database Local Storage 
+chromadb/
+*.faiss
+*.pkl
+index/
+vector_store/
+# Ignore the entire vector store folder and its contents
+vectorstore/
+
+# Alternatively, you can specifically ignore FAISS and pickle files anywhere in the repo
+*.faiss
+*.pkl
+
+# CRITICAL: Ignore environment variables and secrets
+.env
+
+# IDEs and Logs
+.vscode/
+.idea/
+*.log
+.ipynb_checkpoints/
+# Ignore API keys and secret files
+key
+*.key
+medibot_v2/key

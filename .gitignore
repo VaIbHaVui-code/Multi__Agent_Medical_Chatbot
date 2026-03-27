@@ -1,0 +1,14 @@
+# Python (Backend & RAG)
+__pycache__/
+venv/
+env/
+.env
+
+# Node/Frontend (if applicable)
+node_modules/
+.npm/
+
+# Vector Databases & Logs
+chromadb/
+*.log
+.DS_Store
